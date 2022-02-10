@@ -52,14 +52,24 @@
 }
 
 .demo{
-    font-family: arial,sans-serif;
-    font-size: 18px;
-    border: 2px solid #fa882e;
-    border-radius: 10px;
-    width: 200px;
-    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
     text-align: center;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+    border: #fa882e 1px solid;
+    background-color: white;
     color: #fa882e;
+    height: 30px;
+    padding: 6px 16px;
+    border-radius: 10px;
+    font-family: arial,sans-serif;
+}
+
+.demo:hover{
+    background-color:#fa882e;
+    color: white;
 }
 
 ul{
@@ -79,25 +89,44 @@ h1{
     font-family: arial,sans-serif;
     font-size: 60px;
     margin-left: 100px;
+    padding-left: 50px;
+    padding-top: 100px;
 }
 
-p{
+.img1{
+    padding-right: 100px;
+}
+
+.image2{
+    padding-right: 150px;
+}
+
+h3{
     color: #d1cfcf;
-    margin-left: 100px;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    padding-left: 160px;
 }
 
 .bouton{
-    font-size: 20px;
-    color: white;
-    background-color: #fa882e;
-    border-radius: 10px;
-    margin-left: 100px;
-    margin-top: 10px;
-    height: 70px;
-    width: 200px;
-    border: 1px solid #fa882e;
-    font-family: arial,sans-serif;
+    display: inline-block;
+    vertical-align: middle;
     text-align: center;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+    border: #fa882e 1px solid;
+    background-color: #fa882e;
+    color: white;
+    height: 50px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-family: arial,sans-serif;
+}
+
+.bouton:hover{
+    background-color: white;
+    color: #fa882e;
 }
 
 .web{
@@ -107,18 +136,17 @@ p{
     margin-top: 35px;
 }
 
-.image1{
-    
-}
-
 .box{
     border: 1px solid #fa882e;
     height: 700px;
     background: rgb(255,181,74);
     background: radial-gradient(circle, rgba(255,181,74,1) 0%, rgba(255,126,0,1) 100%);
-    margin: auto;
     color : #fa882e;
     text-align: center;
+}
+
+.img1{
+    padding: 76px;
 }
 
 a{
@@ -127,10 +155,11 @@ a{
     font-size: 20px;
     margin-left: 100px;
     font-family: arial, sans-serif;
+    padding-left: 70px;
 }
 
 a:hover{
-    color: rgb(102, 102, 236);
+    color: #d1cfcf;
     text-decoration: underline;
 }
 
@@ -141,10 +170,14 @@ h2{
 }
 
 .starter{
-    border: 1px solid #ececec;
+    border: 2px solid #ececec;
     border-radius: 10px;
     height: 350px;
     width: 250px;
+}
+
+.starter:hover{
+    box-shadow: 3px 3px 3px rgb(197, 194, 194);
 }
 
 .titre1{
@@ -155,29 +188,57 @@ h2{
 }
 
 .get1{
-    border: 1px solid #fa882e;
-    border-radius: 10px;
-    width: 100px;
-    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+    border: #fa882e 1px solid;
+    background-color: white;
     color: #fa882e;
-    font-size: 18px;
+    height: 40px;
+    padding: 12px 16px;
+    border-radius: 10px;
+    font-family: arial,sans-serif;
+}
+
+.get1:hover{
+    background-color: #fa882e;
+    color: white;
 }
 
 .silver{
-    border: 1px solid #ececec;
+    border: 2px solid #ececec;
     border-radius: 10px;
     height: 350px;
     width: 250px;
+    box-shadow: 3px 3px 3px rgb(197, 194, 194);
+}
+
+.silver:hover{
+    box-shadow: none;
 }
 
 .get2{
-    border: 1px solid #fa882e;
-    border-radius: 10px;
-    width: 100px;
-    height: 50px;
-    color: white;
-    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+    border: #fa882e 1px solid;
     background-color: #fa882e;
+    color: white;
+    height: 40px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-family: arial,sans-serif;
+}
+
+.get2:hover{
+    background-color: white;
+    color: #fa882e;
 }
 
 .box2{
@@ -203,10 +264,65 @@ h2{
 
 .bouton2{
     display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+    border: #fa882e 1px solid;
     background-color: white;
-    border-radius: 10px;
-    border: 4px;
     color: #fa882e;
+    height: 50px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-family: arial,sans-serif;
+}
+
+.bouton2:hover{
+    background-color: #fa882e;
+    color: white;
+}
+
+/*.container8{
+    display: flex;
+    flex-direction: row;
+}*/
+
+input{
+    border:none;
+}
+
+.form{
+    border: 1px solid;
+    width: 310px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.email{
+    padding-top: 1px;
+    padding-left: 7px;
+    font-family: arial,sans-serif;
     font-size: 18px;
-    padding: 20px
+}
+
+.bouton3{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+    border: #fa882e 1px solid;
+    background-color: #fa882e;
+    color: white;
+    height: 50px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-family: arial,sans-serif;
+}
+
+.bouton3:hover{
+    background-color: white;
+    color: #fa882e;
 }
